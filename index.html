@@ -30,42 +30,85 @@
             </ul>
         </nav>
     </header>
-
+    
     <!-- About Section -->
-    <section id="about" class="bg-gray-800 text-white py-16">
-        <div class="max-w-6xl mx-auto text-justify">
-            <h2 class="text-5xl font-bold mb-4 text-center">About Us</h2>
-            <p class="mt-4 text-gray-300 text-3xl leading-relaxed">
-                Welcome to the Birmingham Biomechanics Laboratory, led by Dr. Ziyun Ding. Our mission is to leverage cutting-edge experimental and computational techniques to create patient-centered interventions and devices, aimed at enhancing the quality of life for individuals with neuromuscular disorders.
-            </p>
+    <section id="about" class="bg-gray-800 text-white pb-16">
+        <div>
+            <!-- Image -->
+            <div class="mb-4 pb-16">
+                <img src="image/AboutUs.png" alt="Background Image" class="about-image w-full h-auto">
+            </div>
+            
+            <!-- Text -->
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-5xl font-bold mb-4 text-center">About Us</h2>
+                <p class="mt-4 text-gray-300 text-3xl leading-relaxed">
+                    Welcome to the Birmingham Biomechanics Laboratory, led by Dr. Ziyun Ding. Our mission is to leverage cutting-edge experimental and computational techniques to create patient-centered interventions and devices, aimed at enhancing the quality of life for individuals with neuromuscular disorders.
+                </p>
+            </div>
         </div>
     </section>
 
+
+    <style>
+        .research-container {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        #Research h2 {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .research-image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+    </style>
+    
     <!-- Research Section -->
     <section id="Research" class="py-12 px-4">
-        <h2 class="text-3xl font-bold mb-4">Our Research</h2>
-        <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <li class="bg-white rounded-lg shadow p-6">
-                <img src="image/Fig1.png" alt="Project 1" class="h-100 w-full object-contain mb-4">
-            </li>
-            <li class="bg-white rounded-lg shadow p-6">
-                <img src="image/Fig2.png" alt="Project 2" class="h-100 w-full object-contain mb-4">
-            </li>
-        </ul>
-        <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-            <li class="bg-white rounded-lg shadow p-6">
-                <img src="image/Fig3.png" alt="Project 3" class="h-100 w-full object-contain mb-4">
-            </li>
-            <li class="bg-white rounded-lg shadow p-6">
-                <img src="image/Fig4.png" alt="Project 4" class="h-100 w-full object-contain mb-4">
-            </li>
-        </ul>
-        <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-            <li class="bg-white rounded-lg shadow p-6">
-                <img src="image/Fig5.jpg" alt="Project 5" class="h-90 w-full object-contain mb-4">
-            </li>
-            <!-- Add more project details as needed -->
-        </ul>
+        <div class="research-container">
+            <h2 class="text-3xl font-bold mb-4">Our Research</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Row 1 -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="research-image-container">
+                        <img src="image/Fig1.png" alt="Project 1" class="h-100 w-full object-contain mb-4">
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="research-image-container">
+                        <img src="image/Fig2.png" alt="Project 2" class="h-100 w-full object-contain mb-4">
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="research-image-container">
+                        <img src="image/Fig3.png" alt="Project 3" class="h-100 w-full object-contain mb-4">
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="research-image-container">
+                        <img src="image/Fig4.png" alt="Project 4" class="h-100 w-full object-contain mb-4">
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="research-image-container">
+                        <img src="image/Fig5.jpg" alt="Project 5" class="h-100 w-full object-contain mb-4">
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="research-image-container">
+                        <img src="image/Fig6.png" alt="Project 6" class="h-100 w-full object-contain mb-4">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
