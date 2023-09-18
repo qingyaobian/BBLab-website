@@ -42,12 +42,13 @@
             <!-- Text -->
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-5xl font-bold mb-4 text-center">About Us</h2>
-                <p class="mt-4 text-gray-300 text-3xl leading-relaxed">
+                <p class="mt-4 text-gray-400 text-3xl leading-relaxed"> 
                     Welcome to the Birmingham Biomechanics Laboratory, led by Dr. Ziyun Ding. Our mission is to leverage cutting-edge measurement and modelling techniques to create patient-centered interventions and devices, aimed at enhancing the quality of life for people with disabilities.
                 </p>
             </div>
         </div>
     </section>
+
 
 
     <style>
@@ -75,7 +76,7 @@
                     <div class="research-image-container">
                         <img src="image/Fig1.png" alt="Project 1" class="h-100 w-full object-contain mb-4">
                         <div class="research-description">
-                            <p class="text-2xl">We are working on advanced measurement techniques that use wearable sensors and smartphones to accurately track locomotion in real-world scenarios.</p>
+                            <p class="text-xl">We are working on advanced measurement techniques that use wearable sensors and smartphones to accurately track locomotion in real-world scenarios.</p>
                         </div>
                     </div>
                 </div>
@@ -83,7 +84,7 @@
                     <div class="research-image-container">
                         <img src="image/Fig2.png" alt="Project 2" class="h-100 w-full object-contain mb-4">
                         <div class="research-description">
-                            <p class="text-2xl">Using patients' medical images measured in the field, we investigate skeletal muscle adaptation due to disabilities and its interactions with the production of locomotion.</p>
+                            <p class="text-xl">Using patients' medical images measured in the field, we investigate skeletal muscle adaptation due to disabilities and its interactions with the production of locomotion.</p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +94,7 @@
                     <div class="research-image-container">
                         <img src="image/Fig3.png" alt="Project 3" class="h-100 w-full object-contain mb-4">
                         <div class="research-description">
-                            <p class="text-2xl">Our biomechanics model, using muscle-driven simulations, can predict the most effective interventions tailored to the patient’s unique needs in improving locomotion.</p>
+                            <p class="text-xl">Our biomechanics model, using muscle-driven simulations, can predict the most effective interventions tailored to the patient’s unique needs in improving locomotion.</p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +102,7 @@
                     <div class="research-image-container">
                         <img src="image/Fig4.png" alt="Project 4" class="h-100 w-full object-contain mb-4">
                         <div class="research-description">
-                            <p class="text-2xl">We use various numerical optimisation algorithms to predict optimal muscle coordination for enhancing performance in specific locomotion tasks.</p>
+                            <p class="text-xl">We use various numerical optimisation algorithms to predict optimal muscle coordination for enhancing performance in specific locomotion tasks.</p>
                         </div>
                     </div>
                 </div>
@@ -111,7 +112,7 @@
                     <div class="research-image-container">
                         <img src="image/Fig5.png" alt="Project 5" class="h-100 w-full object-contain mb-4">
                         <div class="research-description">
-                            <p class="text-2xl">Our study on biomechanical knee modelling won the Clinical Science Award, paving the way for improved clinical predictions of knee loading.</p>
+                            <p class="text-xl">Our study on biomechanical knee modelling won the Clinical Science Award, paving the way for improved clinical predictions of knee loading.</p>
                         </div>
                     </div>
                 </div>
@@ -119,7 +120,7 @@
                     <div class="research-image-container">
                         <img src="image/Fig6.png" alt="Project 6" class="h-100 w-full object-contain mb-4">
                         <div class="research-description">
-                            <p class="text-2xl">Our clinical study facilitates the implementation of digital rehabilitative interventions by translating evidence-based positive research findings from our laboratory into clinical practice.</p>
+                            <p class="text-xl">Our clinical study facilitates the implementation of digital rehabilitative interventions by translating evidence-based positive research findings from our laboratory into clinical practice.</p>
                         </div>
                     </div>
                 </div>
@@ -194,12 +195,8 @@
         </div>
     </section>
 
-
-
-
-
     <!-- Footer Section -->
-    <footer class="bg-gray-800 text-white text-center py-4">
+    <footer class="bg-gray-400 text-white text-center py-4">
         <p>&copy; 2023 Research Group. All rights reserved.</p>
     </footer>
 
@@ -207,16 +204,12 @@
         document.getElementById("contactForm").addEventListener("submit", function(event) {
             event.preventDefault(); // Prevent default form submission
     
-            // Get the form data
             const formData = new FormData(event.target);
     
-            // Do something with the form data (e.g., send it to a server using AJAX)
-            // Here, I'm just logging the form data to the console for demonstration purposes
             for (let [name, value] of formData) {
                 console.log(`${name}: ${value}`);
             }
-    
-            // Optionally, you can show a success message or perform any other actions after form submission
+
             alert("Message sent successfully!");
         });
     </script>
